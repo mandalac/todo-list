@@ -1,0 +1,39 @@
+.ToDoContainer {
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+.ToDoList {
+  text-align: center;
+  background-color: rgb(69, 161, 100);
+  width: 500px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ListCont {
+  padding-left: 0;
+  margin: 0;
+}
+
+.TodoHeader {
+  padding: 20px 0;
+  background-color: #4d8a1c;
+  overflow: hidden;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: rgb(224, 231, 235);
+}
+
+.ListCont > li:nth-last-of-type(1) {
+  border: none;
+}
+
+.DateHeading {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+}
